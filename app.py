@@ -207,7 +207,7 @@ app.layout = html.Div(
                 html.Div(
                     id="model_graph",
                     children=[
-                        html.B("Demanda energética total en Austria [MW]"),
+                        html.B("Análisis temporal de la demanda energética en Austria [MW] por DECC"),
                         html.Hr(),
                         dcc.Graph(
                             id="plot_series",  
